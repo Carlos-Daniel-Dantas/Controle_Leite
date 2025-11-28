@@ -1,0 +1,77 @@
+# Arquivo .gitignore padrão para projetos Python
+
+# --------------------------
+# 1. Ambientes Virtuais (Virtual Environments)
+# --------------------------
+# Exclui pastas de ambientes virtuais criadas pelo venv, conda e poetry
+venv/
+.venv/
+env/
+/bin/
+/include/
+/lib/
+/lib64/
+__pycache__/
+
+# --------------------------
+# 2. Compilação e Build
+# --------------------------
+# Arquivos de bytecode Python
+*.pyc
+*.pyd
+*.pyo
+
+# Pastas de pacotes/módulos
+*~$
+*.bak
+*.swp
+*.orig
+*.un~
+*.egg
+*.whl
+.eggs/
+dist/
+build/
+MANIFEST
+
+# --------------------------
+# 3. Testes e Cobertura (Testing & Coverage)
+# --------------------------
+.coverage
+.tox/
+htmlcov/
+.nox/
+
+# --------------------------
+# 5. IDEs e Ferramentas Comuns
+# --------------------------
+
+# PyCharm/IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks (Checkpoint)
+.ipynb_checkpoints
+
+# Spyder
+.spyderproject
+.spyderproject.ini
+.spyderhistory
+
+# Arquivos de Configuração Sensíveis (Mantenha sempre fora do Git)
+# Se você tiver um arquivo com suas credenciais do MySQL, é CRUCIAL excluí-lo.
+# EXEMPLOS:
+config.py # Se for onde estão as credenciais do seu MySQL
+*.env
+.env
+
+# --------------------------
+# 6. Distribuição
+# --------------------------
+# Se você usar PyInstaller ou Nuitka para criar executáveis
+*.exe
+*.dll
+*.so
+*.dylib
