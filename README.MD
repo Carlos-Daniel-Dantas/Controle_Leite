@@ -114,7 +114,7 @@ O projeto é organizado para facilitar o desenvolvimento:
 
 | Autor | GitHub |
 | :---- | :---- |
-| Pietro | \<URL\_DO\_SEU\_GITHUB\> |
+| Carlos | https://github.com/Carlos-Daniel-Dantas/Controle_Leite |
 
 ## **🤝 Contribuições**
 
